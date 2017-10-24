@@ -114,13 +114,12 @@ void LinkedList<T>::sort(){
                 swap(get(j-1),get(j), get(j+1));
             }
     }
-
 }
 
 template <class T>
 Node<T>* LinkedList<T>::get(int n){
     Node<T>* curr = first;
-    for(int i =0;i<n && curr != NULL;i++){
+    for(int i = 0; i<n && curr != NULL;i++){
         curr = curr->getNext();
     }
     return curr;

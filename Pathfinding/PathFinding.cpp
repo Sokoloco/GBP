@@ -20,11 +20,10 @@ int PathFinding::backTracking(int i, int j) {
 
 
 int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode* current){
-    std::cout<<"X="<<i<<" Y="<<j<<std::endl;
     if(closed.empty()) {
         mapNode newN = {i,j,NULL,0};
         closed.add(newN);
-        aStar(destinyX,destinyY,0,0,&newN);
+        return aStar(destinyX,destinyY,0,0,&newN);
     }else if (closed.has(*current)){
         open.remove(*current);
         closed.add(*current);
@@ -61,7 +60,7 @@ int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode* current)
         }
 
     mapNode next = getLowest();
-    aStar(destinyX,destinyY,next.x,next.y,&next);
+    return aStar(destinyX,destinyY,next.x,next.y,&next);
 }
 
 
@@ -81,7 +80,7 @@ PathFinding::mapNode PathFinding::getLowest() {
 }
 
 int* PathFinding::getNextMove() {
-    mapNode ans = closed.get(closed.getSize())->getData();
+    mapNode ans = closed.get(closed.getSize()-1)->getData();
     mapNode* ansParent = ans.parent;
     while((ansParent) != NULL){
         ans = *ansParent;
