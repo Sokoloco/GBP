@@ -21,9 +21,11 @@ CMakeFiles/GBP.dir/Structures/Node.cpp.o: ../Structures/Node.cpp
 CMakeFiles/GBP.dir/Structures/Node.cpp.o: ../Structures/Node.h
 
 CMakeFiles/GBP.dir/main.cpp.o: ../GUI/Map.h
+CMakeFiles/GBP.dir/main.cpp.o: ../Pathfinding/PathFinding.h
 CMakeFiles/GBP.dir/main.cpp.o: ../Structures/LinkedList.cpp
 CMakeFiles/GBP.dir/main.cpp.o: ../Structures/LinkedList.h
 CMakeFiles/GBP.dir/main.cpp.o: ../Structures/Node.cpp
 CMakeFiles/GBP.dir/main.cpp.o: ../Structures/Node.h
+CMakeFiles/GBP.dir/main.cpp.o: ../Tests/Tests.h
 CMakeFiles/GBP.dir/main.cpp.o: ../main.cpp
 

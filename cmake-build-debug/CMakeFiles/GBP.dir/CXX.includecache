@@ -25,8 +25,6 @@ fstream
 -
 
 /home/luis/CLionProjects/GBP/Pathfinding/PathFinding.cpp
-cstdlib
--
 PathFinding.h
 /home/luis/CLionProjects/GBP/Pathfinding/PathFinding.h
 
@@ -50,6 +48,10 @@ Node.h
 
 /home/luis/CLionProjects/GBP/Structures/Node.h
 
+/home/luis/CLionProjects/GBP/Tests/Tests.h
+../Pathfinding/PathFinding.h
+/home/luis/CLionProjects/GBP/Pathfinding/PathFinding.h
+
 /home/luis/CLionProjects/GBP/main.cpp
 stdio.h
 -
@@ -59,8 +61,8 @@ iostream
 -
 GUI/Map.h
 /home/luis/CLionProjects/GBP/GUI/Map.h
-Structures/LinkedList.cpp
-/home/luis/CLionProjects/GBP/Structures/LinkedList.cpp
+Tests/Tests.h
+/home/luis/CLionProjects/GBP/Tests/Tests.h
 
 /usr/include/allegro5/allegro_image.h
 allegro5/base.h

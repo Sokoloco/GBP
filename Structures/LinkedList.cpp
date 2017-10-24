@@ -69,15 +69,29 @@ template <class T>
  * @return returns the node with the found value
  */
 template <class T>
-    T* LinkedList<T>::search(T value){
+T LinkedList<T>::search(T value){
         Node<T>* curr = first;
         while(curr != NULL){
-            if(curr->getData() == value) return curr;
+            if(curr->getData() == value){
+                T ans =  curr->getData();
+                return ans;
+            }
             curr = curr->getNext();
         }
-        return NULL;
-    }
+}
 
+template <class T>
+bool LinkedList<T>::has(T value){
+    Node<T>* curr = first;
+    while(curr != NULL){
+        if(curr->getData() == value){
+            T ans = curr->getData();
+            return true;
+        }
+        curr = curr->getNext();
+    }
+    return false;
+}
 template <class T>
 void LinkedList<T>::run(){
     Node<T>* curr = first;
@@ -96,7 +110,7 @@ void LinkedList<T>::sort(){
     int i, j;
     for (i = 0; i < size-1; i++){
         for (j = 0; j < size-i-1; j++){
-            if (get(j)->getData()>get(j+1)->getData())
+            if (get(j)>get(j+1))
                 swap(get(j-1),get(j), get(j+1));
             }
     }
@@ -104,7 +118,7 @@ void LinkedList<T>::sort(){
 }
 
 template <class T>
-T* LinkedList<T>::get(int n){
+Node<T>* LinkedList<T>::get(int n){
     Node<T>* curr = first;
     for(int i =0;i<n && curr != NULL;i++){
         curr = curr->getNext();

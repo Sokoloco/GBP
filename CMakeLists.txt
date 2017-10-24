@@ -3,7 +3,7 @@ project(GBP)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp GUI/Map.cpp GUI/Map.h Pathfinding/PathFinding.cpp Pathfinding/PathFinding.h Structures/LinkedList.cpp Structures/LinkedList.h Structures/Node.cpp Structures/Node.h)
+set(SOURCE_FILES main.cpp GUI/Map.cpp GUI/Map.h Pathfinding/PathFinding.cpp Pathfinding/PathFinding.h Structures/LinkedList.cpp Structures/LinkedList.h Structures/Node.cpp Structures/Node.h Tests/Tests.h)
 add_executable(GBP ${SOURCE_FILES})
 
 INCLUDE_DIRECTORIES(  /usr/local/Cellar/allegro/5.2.1.1_1/include )

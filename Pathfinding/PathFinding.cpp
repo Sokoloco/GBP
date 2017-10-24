@@ -2,7 +2,6 @@
 // Created by luis on 19/10/17.
 //
 
-#include <cstdlib>
 #include "PathFinding.h"
 
 
@@ -20,13 +19,18 @@ int PathFinding::backTracking(int i, int j) {
 }
 
 
-int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode current){
+int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode* current){
+    std::cout<<"X="<<i<<" Y="<<j<<std::endl;
     if(closed.empty()) {
-        current ={i,j,NULL,0};
-        closed.add(current);
+        mapNode newN = {i,j,NULL,0};
+        closed.add(newN);
+        aStar(destinyX,destinyY,0,0,&newN);
+    }else if (closed.has(*current)){
+        open.remove(*current);
+        closed.add(*current);
     }else{
-        open.remove(current);
-        closed.add(current);
+        open.remove(*current);
+        closed.add(*current);
     }
     if(abs(i-destinyX + j-destinyY) == 1) {//sends a pointer of thenext step aka right after the first space aka first that whose past isnt NULL};
         int* movingPos = getNextMove();
@@ -34,52 +38,65 @@ int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode current){
     }
     for(int m = -1;m<2;m++){
         for(int n = -1;n<2;n++){
-            if(m == n == 0 );
-            else if((i+m < 0 || j+n < 0) && *(map+(i+m)*sizeY+(j+n)) == 0); //que no este en el mapa y que no sea recorrible
-            else{
+            if(m == 0 && n == 0 );
+            else if(j+m >= 0 && i+n >= 0){
+                if(map[((j+m)* (sizeY+1) +(i+n))] == 1){ //que no este en el mapa y que no sea recorrible
                 mapNode newN = {0};
-                newN.x = i+m; newN.y = j+n;
+                newN.y = j+m; newN.x = i+n;
                 newN.parent = current;
                 int H = abs(newN.x-destinyX) +abs(newN.y-destinyY);
                 int G = (abs(m+n) == 1) ? 10 : 14;
                 newN.cost = G+H;
-                mapNode* check;
-                if(closed.search(newN)!=NULL);
-                if((check = open.search(newN)) != NULL)
+                mapNode* check = NULL;
+                if(closed.has(newN));
+                else if(open.has(newN)){
+                    *check = open.search(newN);
                     if(*check > newN){
                         check->parent = current;
                         check->cost = newN.cost;
                     }
-                open.add(newN);
-        }}
-    }
+                }
+                else
+                    open.add(newN);}}
+            }
+        }
+
     mapNode next = getLowest();
-    aStar(destinyX,destinyY,next.x,next.y,next);
+    aStar(destinyX,destinyY,next.x,next.y,&next);
 }
 
 
 
-PathFinding::PathFinding(int *map, int sizeX, int sizeY, int *path, int destinyY, int destinyX) {
+PathFinding::PathFinding(int *map, int sizeX, int sizeY){
     this->map = map;
-    this->path = path;
     this->sizeX = sizeX;
     this->sizeY = sizeY;
+    this->path = NULL;
 }
 
 PathFinding::mapNode PathFinding::getLowest() {
-    mapNode* lowest;
+    mapNode lowest;
     open.sort();
-    lowest = open.get(0);
-    return *lowest;
+    lowest = open.get(0)->getData();
+    return lowest;
 }
 
 int* PathFinding::getNextMove() {
-    mapNode* ans = closed.get(closed.getSize());
-    mapNode* ansParent = &(ans->parent);
+    mapNode ans = closed.get(closed.getSize())->getData();
+    mapNode* ansParent = ans.parent;
     while((ansParent) != NULL){
-        ans = ansParent;
-        ansParent = &(ansParent->parent);
+        ans = *ansParent;
+        ansParent = ansParent->parent;
     }
-    int ansArr[2] = {ans->x,ans->y};
-    return ansArr;
+    int ansArr[2] = {ans.x,ans.y};
+    int* ansA = ansArr;
+    return ansA;
+}
+
+PathFinding::PathFinding(int *map, int sizeX, int sizeY, int *path) {
+    this->map = map;
+    this->sizeX = sizeX;
+    this->sizeY = sizeY;
+    this->path = path;
+
 }

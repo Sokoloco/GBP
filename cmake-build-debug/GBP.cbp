@@ -110,6 +110,9 @@
 		<Unit filename="/home/luis/CLionProjects/GBP/Structures/Node.h">
 			<Option target="GBP"/>
 		</Unit>
+		<Unit filename="/home/luis/CLionProjects/GBP/Tests/Tests.h">
+			<Option target="GBP"/>
+		</Unit>
 		<Unit filename="/home/luis/CLionProjects/GBP/main.cpp">
 			<Option target="GBP"/>
 		</Unit>

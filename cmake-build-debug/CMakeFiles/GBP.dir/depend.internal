@@ -22,8 +22,10 @@ CMakeFiles/GBP.dir/Structures/Node.cpp.o
  /home/luis/CLionProjects/GBP/Structures/Node.h
 CMakeFiles/GBP.dir/main.cpp.o
  /home/luis/CLionProjects/GBP/GUI/Map.h
+ /home/luis/CLionProjects/GBP/Pathfinding/PathFinding.h
  /home/luis/CLionProjects/GBP/Structures/LinkedList.cpp
  /home/luis/CLionProjects/GBP/Structures/LinkedList.h
  /home/luis/CLionProjects/GBP/Structures/Node.cpp
  /home/luis/CLionProjects/GBP/Structures/Node.h
+ /home/luis/CLionProjects/GBP/Tests/Tests.h
  /home/luis/CLionProjects/GBP/main.cpp

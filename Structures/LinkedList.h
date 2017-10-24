@@ -18,19 +18,23 @@ public:
 
     void remove(T data);
 
-    T* search(T value);
+    T search(T value);
 
     bool empty();
 
     void run();
 
-    T* get(int n);
+    Node<T>* get(int n);
 
     int getSize();
 
     void swap(Node<T> *b4, Node<T> *x, Node<T> *y);
 
     void sort();
+
+    bool has(T value);
+
+    void search(T *ans, T value);
 };
 
 
