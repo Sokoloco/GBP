@@ -47,13 +47,12 @@ int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode* current)
                 int H = abs(newN.x-destinyX) +abs(newN.y-destinyY);
                 int G = (abs(m+n) == 1) ? 10 : 14;
                 newN.cost = G+H;
-                mapNode* check = NULL;
                 if(closed.has(newN));
                 else if(open.has(newN)){
-                    *check = open.search(newN);
-                    if(*check > newN){
-                        check->parent = current;
-                        check->cost = newN.cost;
+                    mapNode check = open.search(newN);
+                    if(check < newN){
+                        check.parent = current;
+                        check.cost = newN.cost;
                     }
                 }
                 else
