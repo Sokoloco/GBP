@@ -5,6 +5,13 @@ CMakeFiles/GBP.dir/GUI/Map.cpp.o
  /home/luis/CLionProjects/GBP/GUI/Map.cpp
  /home/luis/CLionProjects/GBP/GUI/Map.h
  /usr/include/allegro5/allegro_image.h
+CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o
+ /home/luis/CLionProjects/GBP/Genetic/GeneticAlgorithm.cpp
+ /home/luis/CLionProjects/GBP/Genetic/GeneticAlgorithm.h
+ /home/luis/CLionProjects/GBP/Structures/LinkedList.cpp
+ /home/luis/CLionProjects/GBP/Structures/LinkedList.h
+ /home/luis/CLionProjects/GBP/Structures/Node.cpp
+ /home/luis/CLionProjects/GBP/Structures/Node.h
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o
  /home/luis/CLionProjects/GBP/Pathfinding/PathFinding.cpp
  /home/luis/CLionProjects/GBP/Pathfinding/PathFinding.h

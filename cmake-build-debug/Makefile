@@ -150,6 +150,33 @@ GUI/Map.cpp.s:
 	$(MAKE) -f CMakeFiles/GBP.dir/build.make CMakeFiles/GBP.dir/GUI/Map.cpp.s
 .PHONY : GUI/Map.cpp.s
 
+Genetic/GeneticAlgorithm.o: Genetic/GeneticAlgorithm.cpp.o
+
+.PHONY : Genetic/GeneticAlgorithm.o
+
+# target to build an object file
+Genetic/GeneticAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP.dir/build.make CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o
+.PHONY : Genetic/GeneticAlgorithm.cpp.o
+
+Genetic/GeneticAlgorithm.i: Genetic/GeneticAlgorithm.cpp.i
+
+.PHONY : Genetic/GeneticAlgorithm.i
+
+# target to preprocess a source file
+Genetic/GeneticAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP.dir/build.make CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.i
+.PHONY : Genetic/GeneticAlgorithm.cpp.i
+
+Genetic/GeneticAlgorithm.s: Genetic/GeneticAlgorithm.cpp.s
+
+.PHONY : Genetic/GeneticAlgorithm.s
+
+# target to generate assembly for a file
+Genetic/GeneticAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP.dir/build.make CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.s
+.PHONY : Genetic/GeneticAlgorithm.cpp.s
+
 Pathfinding/PathFinding.o: Pathfinding/PathFinding.cpp.o
 
 .PHONY : Pathfinding/PathFinding.o
@@ -270,6 +297,9 @@ help:
 	@echo "... GUI/Map.o"
 	@echo "... GUI/Map.i"
 	@echo "... GUI/Map.s"
+	@echo "... Genetic/GeneticAlgorithm.o"
+	@echo "... Genetic/GeneticAlgorithm.i"
+	@echo "... Genetic/GeneticAlgorithm.s"
 	@echo "... Pathfinding/PathFinding.o"
 	@echo "... Pathfinding/PathFinding.i"
 	@echo "... Pathfinding/PathFinding.s"

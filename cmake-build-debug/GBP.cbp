@@ -92,6 +92,12 @@
 		<Unit filename="/home/luis/CLionProjects/GBP/GUI/Map.h">
 			<Option target="GBP"/>
 		</Unit>
+		<Unit filename="/home/luis/CLionProjects/GBP/Genetic/GeneticAlgorithm.cpp">
+			<Option target="GBP"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/GBP/Genetic/GeneticAlgorithm.h">
+			<Option target="GBP"/>
+		</Unit>
 		<Unit filename="/home/luis/CLionProjects/GBP/Pathfinding/PathFinding.cpp">
 			<Option target="GBP"/>
 		</Unit>
