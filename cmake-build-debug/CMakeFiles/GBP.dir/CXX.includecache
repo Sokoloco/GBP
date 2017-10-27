@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/luis/CLionProjects/GBP/GUI/Map.cpp
+/home/melany/CLionProjects/GPB/GUI/Map.cpp
 Map.h
-/home/luis/CLionProjects/GBP/GUI/Map.h
-/usr/include/allegro5/allegro_image.h
+/home/melany/CLionProjects/GPB/GUI/Map.h
+allegro5/allegro_image.h
+-
+allegro5/allegro_native_dialog.h
 -
 iostream
 -
 
-/home/luis/CLionProjects/GBP/GUI/Map.h
+/home/melany/CLionProjects/GPB/GUI/Map.h
 allegro5/allegro5.h
 -
 allegro5/allegro_native_dialog.h
@@ -24,35 +26,35 @@ allegro5/allegro_primitives.h
 fstream
 -
 
-/home/luis/CLionProjects/GBP/Pathfinding/PathFinding.cpp
+/home/melany/CLionProjects/GPB/Pathfinding/PathFinding.cpp
 PathFinding.h
-/home/luis/CLionProjects/GBP/Pathfinding/PathFinding.h
+/home/melany/CLionProjects/GPB/Pathfinding/PathFinding.h
 
-/home/luis/CLionProjects/GBP/Pathfinding/PathFinding.h
-/home/luis/CLionProjects/GBP/Structures/LinkedList.cpp
--
+/home/melany/CLionProjects/GPB/Pathfinding/PathFinding.h
+../Structures/LinkedList.cpp
+/home/melany/CLionProjects/GPB/Structures/LinkedList.cpp
 
-/home/luis/CLionProjects/GBP/Structures/LinkedList.cpp
+/home/melany/CLionProjects/GPB/Structures/LinkedList.cpp
 LinkedList.h
-/home/luis/CLionProjects/GBP/Structures/LinkedList.h
+/home/melany/CLionProjects/GPB/Structures/LinkedList.h
 
-/home/luis/CLionProjects/GBP/Structures/LinkedList.h
+/home/melany/CLionProjects/GPB/Structures/LinkedList.h
 Node.cpp
-/home/luis/CLionProjects/GBP/Structures/Node.cpp
+/home/melany/CLionProjects/GPB/Structures/Node.cpp
 
-/home/luis/CLionProjects/GBP/Structures/Node.cpp
+/home/melany/CLionProjects/GPB/Structures/Node.cpp
 iostream
 -
 Node.h
-/home/luis/CLionProjects/GBP/Structures/Node.h
+/home/melany/CLionProjects/GPB/Structures/Node.h
 
-/home/luis/CLionProjects/GBP/Structures/Node.h
+/home/melany/CLionProjects/GPB/Structures/Node.h
 
-/home/luis/CLionProjects/GBP/Tests/Tests.h
+/home/melany/CLionProjects/GPB/Tests/Tests.h
 ../Pathfinding/PathFinding.h
-/home/luis/CLionProjects/GBP/Pathfinding/PathFinding.h
+/home/melany/CLionProjects/GPB/Pathfinding/PathFinding.h
 
-/home/luis/CLionProjects/GBP/main.cpp
+/home/melany/CLionProjects/GPB/main.cpp
 stdio.h
 -
 allegro5/allegro.h
@@ -60,11 +62,7 @@ allegro5/allegro.h
 iostream
 -
 GUI/Map.h
-/home/luis/CLionProjects/GBP/GUI/Map.h
+/home/melany/CLionProjects/GPB/GUI/Map.h
 Tests/Tests.h
-/home/luis/CLionProjects/GBP/Tests/Tests.h
-
-/usr/include/allegro5/allegro_image.h
-allegro5/base.h
-/usr/include/allegro5/allegro5/base.h
+/home/melany/CLionProjects/GPB/Tests/Tests.h
 

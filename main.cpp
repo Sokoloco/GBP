@@ -5,7 +5,7 @@
 #include "Tests/Tests.h"
 
 int main(int argc, char **argv){
-    //Map* ok = new Map;
-    pathfindingTest();
+    Map* ok = new Map;
+    //pathfindingTest();
     return 0;
 }

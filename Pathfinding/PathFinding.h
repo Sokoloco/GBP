@@ -5,7 +5,7 @@
 #ifndef GBP_PATHFINDING_H
 #define GBP_PATHFINDING_H
 
-#include "/home/luis/CLionProjects/GBP/Structures/LinkedList.cpp"
+#include "../Structures/LinkedList.cpp"
 
 class PathFinding {
 private:

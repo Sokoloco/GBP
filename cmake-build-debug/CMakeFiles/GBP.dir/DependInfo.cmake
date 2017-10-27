@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/CLionProjects/GBP/GUI/Map.cpp" "/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles/GBP.dir/GUI/Map.cpp.o"
-  "/home/luis/CLionProjects/GBP/Pathfinding/PathFinding.cpp" "/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o"
-  "/home/luis/CLionProjects/GBP/Structures/LinkedList.cpp" "/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o"
-  "/home/luis/CLionProjects/GBP/Structures/Node.cpp" "/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles/GBP.dir/Structures/Node.cpp.o"
-  "/home/luis/CLionProjects/GBP/main.cpp" "/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles/GBP.dir/main.cpp.o"
+  "/home/melany/CLionProjects/GPB/GUI/Map.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/GUI/Map.cpp.o"
+  "/home/melany/CLionProjects/GPB/Pathfinding/PathFinding.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o"
+  "/home/melany/CLionProjects/GPB/Structures/LinkedList.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o"
+  "/home/melany/CLionProjects/GPB/Structures/Node.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/Structures/Node.cpp.o"
+  "/home/melany/CLionProjects/GPB/main.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

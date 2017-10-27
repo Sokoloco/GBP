@@ -19,4 +19,10 @@ public:
 };
 
 
+class init{
+public:
+    init();
+};
+
+
 #endif //GBP_MAP_H

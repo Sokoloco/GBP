@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/luis/Documents/CLion/clion-2017.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/melany/Descargas/clion-2017.2.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/luis/Documents/CLion/clion-2017.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/melany/Descargas/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/CLionProjects/GBP
+CMAKE_SOURCE_DIR = /home/melany/CLionProjects/GPB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/CLionProjects/GBP/cmake-build-debug
+CMAKE_BINARY_DIR = /home/melany/CLionProjects/GPB/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GBP.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/GBP.dir/flags.make
 
 CMakeFiles/GBP.dir/main.cpp.o: CMakeFiles/GBP.dir/flags.make
 CMakeFiles/GBP.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GBP.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/main.cpp.o -c /home/luis/CLionProjects/GBP/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GBP.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/main.cpp.o -c /home/melany/CLionProjects/GPB/main.cpp
 
 CMakeFiles/GBP.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/GBP/main.cpp > CMakeFiles/GBP.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melany/CLionProjects/GPB/main.cpp > CMakeFiles/GBP.dir/main.cpp.i
 
 CMakeFiles/GBP.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/GBP/main.cpp -o CMakeFiles/GBP.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melany/CLionProjects/GPB/main.cpp -o CMakeFiles/GBP.dir/main.cpp.s
 
 CMakeFiles/GBP.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/GBP.dir/main.cpp.o.provides.build: CMakeFiles/GBP.dir/main.cpp.o
 
 CMakeFiles/GBP.dir/GUI/Map.cpp.o: CMakeFiles/GBP.dir/flags.make
 CMakeFiles/GBP.dir/GUI/Map.cpp.o: ../GUI/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GBP.dir/GUI/Map.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/GUI/Map.cpp.o -c /home/luis/CLionProjects/GBP/GUI/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GBP.dir/GUI/Map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/GUI/Map.cpp.o -c /home/melany/CLionProjects/GPB/GUI/Map.cpp
 
 CMakeFiles/GBP.dir/GUI/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP.dir/GUI/Map.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/GBP/GUI/Map.cpp > CMakeFiles/GBP.dir/GUI/Map.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melany/CLionProjects/GPB/GUI/Map.cpp > CMakeFiles/GBP.dir/GUI/Map.cpp.i
 
 CMakeFiles/GBP.dir/GUI/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP.dir/GUI/Map.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/GBP/GUI/Map.cpp -o CMakeFiles/GBP.dir/GUI/Map.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melany/CLionProjects/GPB/GUI/Map.cpp -o CMakeFiles/GBP.dir/GUI/Map.cpp.s
 
 CMakeFiles/GBP.dir/GUI/Map.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/GBP.dir/GUI/Map.cpp.o.provides.build: CMakeFiles/GBP.dir/GUI/Map.cpp.
 
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o: CMakeFiles/GBP.dir/flags.make
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o: ../Pathfinding/PathFinding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o -c /home/luis/CLionProjects/GBP/Pathfinding/PathFinding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o -c /home/melany/CLionProjects/GPB/Pathfinding/PathFinding.cpp
 
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/GBP/Pathfinding/PathFinding.cpp > CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melany/CLionProjects/GPB/Pathfinding/PathFinding.cpp > CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.i
 
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/GBP/Pathfinding/PathFinding.cpp -o CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melany/CLionProjects/GPB/Pathfinding/PathFinding.cpp -o CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.s
 
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o.provides.build: CMakeFiles/GBP.
 
 CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o: CMakeFiles/GBP.dir/flags.make
 CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o: ../Structures/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o -c /home/luis/CLionProjects/GBP/Structures/LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o -c /home/melany/CLionProjects/GPB/Structures/LinkedList.cpp
 
 CMakeFiles/GBP.dir/Structures/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP.dir/Structures/LinkedList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/GBP/Structures/LinkedList.cpp > CMakeFiles/GBP.dir/Structures/LinkedList.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melany/CLionProjects/GPB/Structures/LinkedList.cpp > CMakeFiles/GBP.dir/Structures/LinkedList.cpp.i
 
 CMakeFiles/GBP.dir/Structures/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP.dir/Structures/LinkedList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/GBP/Structures/LinkedList.cpp -o CMakeFiles/GBP.dir/Structures/LinkedList.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melany/CLionProjects/GPB/Structures/LinkedList.cpp -o CMakeFiles/GBP.dir/Structures/LinkedList.cpp.s
 
 CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o.provides.build: CMakeFiles/GBP.di
 
 CMakeFiles/GBP.dir/Structures/Node.cpp.o: CMakeFiles/GBP.dir/flags.make
 CMakeFiles/GBP.dir/Structures/Node.cpp.o: ../Structures/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GBP.dir/Structures/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/Structures/Node.cpp.o -c /home/luis/CLionProjects/GBP/Structures/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GBP.dir/Structures/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP.dir/Structures/Node.cpp.o -c /home/melany/CLionProjects/GPB/Structures/Node.cpp
 
 CMakeFiles/GBP.dir/Structures/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP.dir/Structures/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/GBP/Structures/Node.cpp > CMakeFiles/GBP.dir/Structures/Node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melany/CLionProjects/GPB/Structures/Node.cpp > CMakeFiles/GBP.dir/Structures/Node.cpp.i
 
 CMakeFiles/GBP.dir/Structures/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP.dir/Structures/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/GBP/Structures/Node.cpp -o CMakeFiles/GBP.dir/Structures/Node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melany/CLionProjects/GPB/Structures/Node.cpp -o CMakeFiles/GBP.dir/Structures/Node.cpp.s
 
 CMakeFiles/GBP.dir/Structures/Node.cpp.o.requires:
 
@@ -195,7 +195,7 @@ GBP: CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o
 GBP: CMakeFiles/GBP.dir/Structures/Node.cpp.o
 GBP: CMakeFiles/GBP.dir/build.make
 GBP: CMakeFiles/GBP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GBP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GBP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GBP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/GBP.dir/clean:
 .PHONY : CMakeFiles/GBP.dir/clean
 
 CMakeFiles/GBP.dir/depend:
-	cd /home/luis/CLionProjects/GBP/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/CLionProjects/GBP /home/luis/CLionProjects/GBP /home/luis/CLionProjects/GBP/cmake-build-debug /home/luis/CLionProjects/GBP/cmake-build-debug /home/luis/CLionProjects/GBP/cmake-build-debug/CMakeFiles/GBP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/melany/CLionProjects/GPB/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/melany/CLionProjects/GPB /home/melany/CLionProjects/GPB /home/melany/CLionProjects/GPB/cmake-build-debug /home/melany/CLionProjects/GPB/cmake-build-debug /home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GBP.dir/depend
 

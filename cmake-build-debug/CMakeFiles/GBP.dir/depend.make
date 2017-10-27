@@ -3,7 +3,6 @@
 
 CMakeFiles/GBP.dir/GUI/Map.cpp.o: ../GUI/Map.cpp
 CMakeFiles/GBP.dir/GUI/Map.cpp.o: ../GUI/Map.h
-CMakeFiles/GBP.dir/GUI/Map.cpp.o: /usr/include/allegro5/allegro_image.h
 
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o: ../Pathfinding/PathFinding.cpp
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o: ../Pathfinding/PathFinding.h
