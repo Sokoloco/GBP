@@ -5,15 +5,16 @@
 #include "PathFinding.h"
 
 
-int PathFinding::backTracking(int i, int j) {
-    if(i == sizeX-1 && j == sizeY-1){
+int PathFinding::backTracking(int i, int j,int destinyX,int destinyY) {
+    if(i == destinyX && j == destinyY){
         return 1;
     }
-    if(*((map+i*sizeY)+j) == 1){
-        *(path+i*sizeY+j) = 1;
-        if(backTracking(i,j+1) == 1)return 1;
-        if(backTracking(i+1,j) == 1)return 1;
-        *(path+i*sizeY+j) = 0;
+    if(*((map+j*sizeX)+i) == 1){
+        *(path+j*sizeX+i) = 1;
+        if(j+1 < sizeY && *(path+(j+1)*(sizeX+1)+i) != 1 && backTracking(i,j+1,destinyX,destinyY) == 1)return 1;
+        if(i+1 < sizeX && *(path+(j)*(sizeX+1)+i+1) != 1 && backTracking(i+1,j,destinyX,destinyY) == 1)return 1;
+        if(i-1 > 0     && *(path+(j)*(sizeX+1)+i-1) != 1 && backTracking(i-1,j,destinyX,destinyY) == 1)return 1;
+        if(j-1 > 0     && *(path+(j-1)*(sizeX+1)+i) != 1 && backTracking(i,j-1,destinyX,destinyY) == 1)return 1;
     }
     return 0;
 }
@@ -31,7 +32,7 @@ int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode* current)
         open.remove(*current);
         closed.add(*current);
     }
-    if(abs(i-destinyX + j-destinyY) == 1) {//sends a pointer of thenext step aka right after the first space aka first that whose past isnt NULL};
+    if(abs(i-destinyX) <2 && abs(j-destinyY) < 2) {//sends a pointer of thenext step aka right after the first space aka first that whose past isnt NULL};
         int* movingPos = getNextMove();
         return(movingPos);
     }
@@ -39,7 +40,7 @@ int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode* current)
         for(int n = -1;n<2;n++){
             if(m == 0 && n == 0 );
             else if(j+m >= 0 && i+n >= 0){
-                if(map[((j+m)* (sizeY+1) +(i+n))] == 1){ //que no este en el mapa y que no sea recorrible
+                if(map[((j+m)*(sizeX+1) +(i+n))] == 1){ //que no este en el mapa y que no sea recorrible
                 mapNode newN = {0};
                 newN.y = j+m; newN.x = i+n;
                 newN.parent = current;
@@ -49,7 +50,7 @@ int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode* current)
                 if(closed.has(newN));
                 else if(open.has(newN)){
                     mapNode check = open.search(newN);
-                    if(check < newN){
+                    if(check > newN){
                         check.parent = current;
                         check.cost = newN.cost;
                     }
@@ -63,14 +64,6 @@ int* PathFinding::aStar(int destinyX,int destinyY,int i, int j,mapNode* current)
     return aStar(destinyX,destinyY,next.x,next.y,&next);
 }
 
-
-
-PathFinding::PathFinding(int *map, int sizeX, int sizeY){
-    this->map = map;
-    this->sizeX = sizeX;
-    this->sizeY = sizeY;
-    this->path = NULL;
-}
 
 PathFinding::mapNode PathFinding::getLowest() {
     mapNode lowest;
@@ -96,5 +89,11 @@ PathFinding::PathFinding(int *map, int sizeX, int sizeY, int *path) {
     this->sizeX = sizeX;
     this->sizeY = sizeY;
     this->path = path;
+}
 
+PathFinding::PathFinding(int *map, int sizeX, int sizeY){
+    this->map = map;
+    this->sizeX = sizeX;
+    this->sizeY = sizeY;
+    this->path = NULL;
 }

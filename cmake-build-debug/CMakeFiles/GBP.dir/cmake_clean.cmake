@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o"
   "CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o"
   "CMakeFiles/GBP.dir/Structures/Node.cpp.o"
+  "CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o"
   "GBP.pdb"
   "GBP"
 )
