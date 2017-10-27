@@ -5,6 +5,13 @@ CMakeFiles/GBP.dir/GUI/Map.cpp.o: ../GUI/Map.cpp
 CMakeFiles/GBP.dir/GUI/Map.cpp.o: ../GUI/Map.h
 CMakeFiles/GBP.dir/GUI/Map.cpp.o: /usr/include/allegro5/allegro_image.h
 
+CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o: ../Genetic/GeneticAlgorithm.cpp
+CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o: ../Genetic/GeneticAlgorithm.h
+CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o: ../Structures/LinkedList.cpp
+CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o: ../Structures/LinkedList.h
+CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o: ../Structures/Node.cpp
+CMakeFiles/GBP.dir/Genetic/GeneticAlgorithm.cpp.o: ../Structures/Node.h
+
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o: ../Pathfinding/PathFinding.cpp
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o: ../Pathfinding/PathFinding.h
 CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o: ../Structures/LinkedList.cpp
