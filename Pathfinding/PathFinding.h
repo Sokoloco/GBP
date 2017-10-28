@@ -35,12 +35,10 @@ private:
 public:
     PathFinding(int *map, int sizeX, int sizeY);
     PathFinding(int *map, int sizeX, int sizeY,int* path);
-    int backTracking(int i, int j);
     mapNode getLowest();
     int *getNextMove();
-    int * aStar(int destinyX, int destinyY, int i, int j, mapNode current);
-
     int *aStar(int destinyX, int destinyY, int i, int j, mapNode *current);
+    int backTracking(int i, int j, int destinyX, int destinyY);
 };
 
 

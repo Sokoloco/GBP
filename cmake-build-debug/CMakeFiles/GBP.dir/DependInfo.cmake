@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/melany/CLionProjects/GPB/GUI/Map.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/GUI/Map.cpp.o"
+  "/home/melany/CLionProjects/GPB/GUI/Map2.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/GUI/Map2.cpp.o"
   "/home/melany/CLionProjects/GPB/Pathfinding/PathFinding.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/Pathfinding/PathFinding.cpp.o"
   "/home/melany/CLionProjects/GPB/Structures/LinkedList.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/Structures/LinkedList.cpp.o"
   "/home/melany/CLionProjects/GPB/Structures/Node.cpp" "/home/melany/CLionProjects/GPB/cmake-build-debug/CMakeFiles/GBP.dir/Structures/Node.cpp.o"
@@ -14,6 +15,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/local/include/opencv"
+  "/usr/local/include"
   "/usr/local/Cellar/allegro/5.2.1.1_1/include"
   )
 

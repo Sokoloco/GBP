@@ -35,6 +35,8 @@ public:
     bool has(T value);
 
     void search(T *ans, T value);
+
+    void clear();
 };
 
 

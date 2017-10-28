@@ -1,5 +1,5 @@
 //
-// Created by luis on 02/10/17.
+// Created by melany on 02/10/17.
 //
 
 #ifndef GBP_MAP_H
@@ -19,10 +19,10 @@ public:
 };
 
 
-class init{
-public:
-    init();
-};
+//class init{
+//public:
+  //  init();
+//};
 
 
 #endif //GBP_MAP_H

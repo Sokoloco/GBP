@@ -36,6 +36,7 @@ int map[5][5] = {
     ok->run();}**/
 void pathfindingTest(){
     PathFinding test(*(map),4,4);
-    test.aStar(4,4,0,0,NULL);
+    int* ans = test.aStar(4,4,0,0,NULL);
+    std::cout<<*ans<<*ans+1<<std::endl;
 }
 #endif //GBP_TESTS_H

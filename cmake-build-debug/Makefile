@@ -150,6 +150,33 @@ GUI/Map.cpp.s:
 	$(MAKE) -f CMakeFiles/GBP.dir/build.make CMakeFiles/GBP.dir/GUI/Map.cpp.s
 .PHONY : GUI/Map.cpp.s
 
+GUI/Map2.o: GUI/Map2.cpp.o
+
+.PHONY : GUI/Map2.o
+
+# target to build an object file
+GUI/Map2.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP.dir/build.make CMakeFiles/GBP.dir/GUI/Map2.cpp.o
+.PHONY : GUI/Map2.cpp.o
+
+GUI/Map2.i: GUI/Map2.cpp.i
+
+.PHONY : GUI/Map2.i
+
+# target to preprocess a source file
+GUI/Map2.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP.dir/build.make CMakeFiles/GBP.dir/GUI/Map2.cpp.i
+.PHONY : GUI/Map2.cpp.i
+
+GUI/Map2.s: GUI/Map2.cpp.s
+
+.PHONY : GUI/Map2.s
+
+# target to generate assembly for a file
+GUI/Map2.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP.dir/build.make CMakeFiles/GBP.dir/GUI/Map2.cpp.s
+.PHONY : GUI/Map2.cpp.s
+
 Pathfinding/PathFinding.o: Pathfinding/PathFinding.cpp.o
 
 .PHONY : Pathfinding/PathFinding.o
@@ -270,6 +297,9 @@ help:
 	@echo "... GUI/Map.o"
 	@echo "... GUI/Map.i"
 	@echo "... GUI/Map.s"
+	@echo "... GUI/Map2.o"
+	@echo "... GUI/Map2.i"
+	@echo "... GUI/Map2.s"
 	@echo "... Pathfinding/PathFinding.o"
 	@echo "... Pathfinding/PathFinding.i"
 	@echo "... Pathfinding/PathFinding.s"

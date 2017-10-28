@@ -114,13 +114,12 @@ void LinkedList<T>::sort(){
                 swap(get(j-1),get(j), get(j+1));
             }
     }
-
 }
 
 template <class T>
 Node<T>* LinkedList<T>::get(int n){
     Node<T>* curr = first;
-    for(int i =0;i<n && curr != NULL;i++){
+    for(int i = 0; i<n && curr != NULL;i++){
         curr = curr->getNext();
     }
     return curr;
@@ -143,4 +142,20 @@ void LinkedList<T>::swap(Node<T>* b4,Node<T>* x, Node<T>* y){
 template <class T>
 int LinkedList<T>::getSize() {
     return size;
+}
+
+template <class T>
+void LinkedList<T>::clear() {
+    Node<T>* curr = first;
+    Node<T>* temp = curr;
+    if(curr != NULL)
+    while(curr->hasnext()){
+        temp = curr;
+        curr = curr->getNext();
+        delete(temp);
+    }
+    delete(curr);
+    first = NULL;
+    last = NULL;
+    size = 0;
 }
